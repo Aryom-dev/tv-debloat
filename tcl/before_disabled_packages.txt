@@ -1,0 +1,8 @@
+﻿package:au.com.stan.and
+package:com.amazon.amazonvideo.livingroom
+package:com.google.android.youtube.tvmusic
+package:com.google.android.videos
+package:tv.wuaki.apptv
+package:com.google.android.youtube.tv
+package:com.tcl.smartalexa
+package:com.google.android.play.games

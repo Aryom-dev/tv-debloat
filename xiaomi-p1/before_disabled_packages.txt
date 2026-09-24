@@ -1,0 +1,6 @@
+﻿package:com.mitv.tvlock
+package:com.xiaomi.amazon.alexa
+package:com.amazon.amazonvideo.livingroom
+package:com.google.android.youtube.tvmusic
+package:com.google.android.youtube.tv
+package:com.google.android.play.games

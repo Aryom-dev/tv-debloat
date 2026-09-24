@@ -1,0 +1,32 @@
+﻿# Lote 1: Telemetria, Demos y Bloatware comercial TCL
+com.tcl.esticker
+com.tcl.factory.view
+com.tcl.useragreement
+com.tcl.keyhelp
+com.android.printspooler
+com.tcl.copydatatotv
+com.tcl.waterfall.overseas
+com.tcl.t_solo
+com.tcl.usercenter
+com.tcl.dashboard
+com.tcl.messagebox
+
+# Lote 2: Multimedia redundante y procesos residuales
+com.tcl.audioplayer
+com.tcl.videoplayer
+com.tcl.imageplayer
+com.tcl.ui_mediaCenter
+com.google.android.marvin.talkback
+com.google.android.tvrecommendations
+com.google.android.tungsten.setupwraith
+com.google.android.partnersetup
+com.tcl.initsetup
+com.android.dreams.basic
+com.tcl.guard
+
+# Lote 3: Telemetria Google y sincronizaciones innecesarias
+com.google.android.feedback
+com.google.android.syncadapters.calendar
+
+# Lote 4: Launcher de fabrica Google
+com.google.android.tvlauncher
