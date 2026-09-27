@@ -51,7 +51,7 @@
 | 3 | `com.android.dreams.basic` | Salvapantallas básico Android | Redundante |
 | 3 | `com.mitv.dream` | Salvapantallas Xiaomi | Redundante |
 | 3 | `com.xiaomi.floatingframe` | Marco flotante fotos Xiaomi | Innecesario |
-| 4 | `com.google.android.tvlauncher` | Android TV Home Launcher de Google | Sustituido por AT4K Launcher (~142 MB RAM liberados) |
+| 4 | `com.google.android.tvlauncher` | Android TV Home Launcher de Google | Sustituido por AT4K Launcher (`com.overdevs.at4k`) (~142 MB RAM liberados) |
 
 > **OPTIMIZACIONES DE INTERFAZ:**
 > - `window_animation_scale`: 0.5x
@@ -62,6 +62,13 @@
 > **NOTA CRÍTICA / DESCUBRIMIENTO:**
 > El paquete `com.xiaomi.android.tvsetup.partnercustomizer` contiene los componentes `GlobalKeyReceiver` y `BleRcActivity`. Es el **equivalente exacto en Xiaomi al `com.tcl.suspension` de TCL**: su nombre parece basura, pero es el receptor que captura el botón de Entradas (Input / Source) del mando Bluetooth.
 > **Pasa inmediatamente a la lista de INTOCABLES.**
+
+> **COMPORTAMIENTO DEL BOTÓN FÍSICO "INPUT" (Opción A elegida):**
+> En el firmware de Xiaomi TV P1, `GlobalKeyReceiver` intenta invocar obligatoriamente `com.google.android.tvlauncher/.inputs.InputsPanelActivity`.
+> Al mantener deshabilitado `com.google.android.tvlauncher` para que la TV vuele con AT4K Launcher y ahorre ~143 MB de RAM, el botón físico arroja `ActivityNotFound`.
+> Para conmutar a HDMI en la Opción A:
+> 1. Usar el acceso directo / app de **"Entradas / TV"** (`com.mediatek.wwtv.tvcenter` o `InputSourcePopupActivity`) en AT4K Launcher.
+> 2. O configurar en **Button Mapper** (`flar2.homebutton`) que el botón Input lance directamente `com.mitv.tvhome.atv/.app.tv.InputSourcePopupActivity`.
 
 ---
 
