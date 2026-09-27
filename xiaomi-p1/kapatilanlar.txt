@@ -1,7 +1,6 @@
-# Lista de paquetes deshabilitados (kapatilanlar)
+# Lista de paquetes deshabilitados (kapatilanlar) - Xiaomi Mi TV P1
 com.miui.tv.analytics
 com.xiaomi.statistic
-com.mitv.tvhome.atv
 com.mitv.tvhome.michannel
 fusion.android.tv.demo
 com.duokan.factorytest

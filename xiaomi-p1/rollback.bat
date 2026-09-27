@@ -3,12 +3,14 @@ echo ====================================================
 echo Revertir Todo el Debloat - Xiaomi TV P1
 echo ====================================================
 set ADB="%LOCALAPPDATA%\Android\Sdk\platform-tools\adb.exe"
+
+REM Intentar conexion con la IP actual
+%ADB% connect 192.168.1.43:5555
 %ADB% connect 192.168.1.33:5555
 
 echo Reactivando todos los paquetes deshabilitados...
 %ADB% shell pm enable com.miui.tv.analytics
 %ADB% shell pm enable com.xiaomi.statistic
-%ADB% shell pm enable com.mitv.tvhome.atv
 %ADB% shell pm enable com.mitv.tvhome.michannel
 %ADB% shell pm enable fusion.android.tv.demo
 %ADB% shell pm enable com.duokan.factorytest
